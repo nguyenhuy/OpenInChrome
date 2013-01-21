@@ -51,4 +51,8 @@
      withCallbackURL:(NSURL *)callbackURL
         createNewTab:(BOOL)createNewTab;
 
+- (NSURL *)constructChromeUrlFrom:(NSURL *)url
+                  withCallbackURL:(NSURL *)callbackURL
+                    createNewTabe:(BOOL)createNewTab;
+
 @end
